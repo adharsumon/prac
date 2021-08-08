@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+	color: #242f51;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	color: #616368;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+input:focus {
+	outline: none !important;
+}
+
+.btn:focus {
+	box-shadow: none !important;
+}
+
+body {
+	line-height: 1;
+	font-family: 'Poppins', sans-serif;
+	background: #fdfdfe;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.bg_cover {
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+}
+
+/* **************************
+		Icon Part Css
+*****************************/
+.icon {}
+
+.icon h2 {
+	position: relative;
+}
+
+.icon h2::before {
+	content: '\f00c';
+	font-family: 'fontawesome';
+}
+
+.icon h2::after {
+	content: '\f0a1';
+	font-family: 'fontawesome';
+}
